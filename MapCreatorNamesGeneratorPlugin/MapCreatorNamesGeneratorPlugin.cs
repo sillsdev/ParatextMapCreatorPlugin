@@ -13,7 +13,7 @@ namespace SIL.ParatextMapCreatorPlugin
     /// Simple plugin that shows a text box that the user can enter text into. The text is
     /// then persisted with the other Paratext project data.
     /// </summary>
-    [AddIn(pluginName, Description = "Fills out the XML files needed by Ethnos 360's Map Creator using the place names from a project's biblical terms data.",
+    [AddIn(pluginName, Description = "Fills out the XML file needed by Ethnos 360's Map Creator using the place names from a project's biblical terms data.",
         Version = "1.0", Publisher = "SIL")]
     [QualificationData(PluginMetaDataKeys.menuText, "&" + pluginName + "...")]
     [QualificationData(PluginMetaDataKeys.insertAfterMenuName, "Tools|Advanced")]
